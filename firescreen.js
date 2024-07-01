@@ -16,7 +16,7 @@ if (scriptloaded) { console.log("Fire Screen Scripts Already Loaded");
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.id = "screen-scripts";
-    script.src = 'https://firerat.glitch.me/firescreenscripts.js';
+    script.src = 'https://nimbin.dev/firescreenscripts.js';
     document.body.appendChild(script);
     console.log("Added Fire Screen Scripts")
   }
@@ -40,7 +40,7 @@ function enableFireScreen() {
   for (let i = 0; i < scripts.length; i++) {
     if (
       getAttrOrDef(scripts[i], "src", "") ===
-      "https://firerat.glitch.me/firescreen.js" ) {
+      "https://nimbin.dev/firescreen.js" ) {
       const pPos = getV3FromStr(getAttrOrDef(scripts[i], "position", "1 2 -1"));
       const pRot = getV3FromStr(getAttrOrDef(scripts[i], "rotation", "0 0 0"));
       const pSca = getV3FromStr(getAttrOrDef(scripts[i], "scale", "1 1 1"));
