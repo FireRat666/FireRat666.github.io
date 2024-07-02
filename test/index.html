@@ -6,6 +6,7 @@
 		<script src="https://aframe.io/releases/1.4.0/aframe.min.js" sq-space="https://sidequestvr.com/space/2471"></script>
 		<script src="https://vidya.sdq.st/say-names.js" four-twenty="false" announce-events="true"></script>
 		<script src="https://nimbin.dev/tests.js"></script>
+    		<link rel="stylesheet" href="https://nimbin.dev/pages/style.css" />
 		<!-- IMPORTANT Scripts for Screen Stuff Copy This as well as the Screen -->
 <!-- 		<script src="https://firerat.glitch.me/bullshcript.js"></script> -->
 		<script>
@@ -91,5 +92,13 @@
   <a-entity sq-mirror position="-5 1 0" rotation="0 90 0" scale="3 3 1"></a-entity>
     
     </a-scene></div>
+	<a href="https://nimbin.dev/pages/games.html" class="buttonG">Go Home</a>
+	<p>Or Enter a URL here:<br/>
+  <form id="form" method="get">
+  <input type="url" id="text" value="https://" class="url" size="40" placeholder="https://bantervr.com" onchange="document.getElementById('form').action = this.value;" />
+  <input type="button" id="btn" value="Go" class="url" 
+         onclick="window.open(document.getElementById('text').value);" />
+  </form>
+	</p>
   </body>
 </html>
