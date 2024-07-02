@@ -45,7 +45,7 @@ function enableFireScreen() {
       const pRot = getV3FromStr(getAttrOrDef(scripts[i], "rotation", "0 0 0"));
       const pSca = getV3FromStr(getAttrOrDef(scripts[i], "scale", "1 1 1"));
       const pVolume = getAttrOrDef(scripts[i], "volumelevel", "0.1");
-      const pWebsite = getAttrOrDef(scripts[i], "website", "https://firetws.glitch.me/games.html");
+      const pWebsite = getAttrOrDef(scripts[i], "website", "https://nimbin.dev/pages/games.html");
       const pMipmaps = getAttrOrDef(scripts[i], "mipmaps", "1");
       const pPixelsperunit = getAttrOrDef(scripts[i], "pixelsperunit", "1600");
       const pBackdrop = getAttrOrDef(scripts[i], "backdrop", "1");
@@ -135,7 +135,7 @@ function addfirescreenpart02() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/HG2.png?v=1716104397047");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/HG2.png");
   firescreen.setAttribute("lockbutton");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -151,7 +151,7 @@ function addfirescreenpart03() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/expand.png?v=1716108852327");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/expand.png");
   firescreen.setAttribute("scale-screen", "size: shrink; avalue: 0.1");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -167,7 +167,7 @@ function addfirescreenpart04() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/shrink.png?v=1716109181082");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/shrink.png");
   firescreen.setAttribute("scale-screen", "size: shrink; avalue: -0.1");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -183,7 +183,7 @@ function addfirescreenpart05() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "tilt buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/RL.png?v=1716111102893");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/RL.png");
   firescreen.setAttribute("visible", "false");
   firescreen.setAttribute("rotate", "axis: y; amount: -10");
   document.getElementById("fires-browser").appendChild(firescreen);
@@ -200,7 +200,7 @@ function addfirescreenpart06() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "tilt buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/RR.png?v=1716111103987");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/RR.png");
   firescreen.setAttribute("visible", "false");
   firescreen.setAttribute("rotate", "axis: y; amount: 10");
   document.getElementById("fires-browser").appendChild(firescreen);
@@ -217,7 +217,7 @@ function addfirescreenpart07() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "tilt buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/TF.png?v=1716085749794");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/TF.png");
   firescreen.setAttribute("visible", "false");
   firescreen.setAttribute("rotate", "axis: x; amount: 5");
   document.getElementById("fires-browser").appendChild(firescreen);
@@ -234,7 +234,7 @@ function addfirescreenpart08() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "tilt buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/TB.png?v=1716085748762");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/TB.png");
   firescreen.setAttribute("visible", "false");
   firescreen.setAttribute("rotate", "axis: x; amount: -5");
   document.getElementById("fires-browser").appendChild(firescreen);
@@ -251,7 +251,7 @@ function addfirescreenpart09() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Rot.png?v=1716104395136");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Rot.png");
   firescreen.setAttribute("enablerot", "false");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -267,7 +267,7 @@ function addfirescreenpart10() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeMute.png?v=1716111177280");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/VolumeMute.png");
   firescreen.setAttribute("toggle-mute");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -283,7 +283,7 @@ function addfirescreenpart11() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeHigh.png?v=1716111178427");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/VolumeHigh.png");
   firescreen.setAttribute("volume-level", "vvalue: 0.05");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -299,7 +299,7 @@ function addfirescreenpart12() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeLow.png?v=1716170759375");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/VolumeLow.png");
   firescreen.setAttribute("volume-level", "vvalue: -0.05");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -314,7 +314,7 @@ function addfirescreenpart13() {
   firescreen.setAttribute("material", "transparent: true");
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Eye.png?v=1716112219308");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Eye.png");
   firescreen.setAttribute("hidebuttons");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -330,8 +330,8 @@ function addfirescreenpart14() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Info.png?v=1716185268676");
-  firescreen.setAttribute("click-url", "url: https://firetws.glitch.me/Info.html");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Info.png");
+  firescreen.setAttribute("click-url", "url: https://nimbin.dev/pages/Info.html");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
 
@@ -346,7 +346,7 @@ function addfirescreenpart15() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Arrow.png?v=1716160344089");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Arrow.png");
   firescreen.setAttribute("navigate-browser", "action: goback");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -362,7 +362,7 @@ function addfirescreenpart16() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Arrow.png?v=1716160344089");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Arrow.png");
   firescreen.setAttribute("navigate-browser", "action: goforward");
   firescreen.setAttribute("rotation", "0 0 180");
   document.getElementById("fires-browser").appendChild(firescreen);
@@ -379,8 +379,8 @@ function addfirescreenpart17() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Home.png?v=1716110821037");
-  firescreen.setAttribute("click-url", "url: https://firetws.glitch.me/games.html");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Home.png");
+  firescreen.setAttribute("click-url", "url: https://nimbin.dev/pages/games.html");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
 
@@ -394,7 +394,7 @@ function addfirescreenpart18() {
   firescreen.setAttribute("sq-collider");
   firescreen.setAttribute("sq-interactable");
   firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Google.png?v=1716082248137");
+  firescreen.setAttribute("src", "https://nimbin.dev/files/Google.png");
   firescreen.setAttribute("click-url", "url:https://google.com/");
   document.getElementById("fires-browser").appendChild(firescreen);
 };
@@ -496,14 +496,14 @@ addfirescreenpart22() {
     handbutcontainer.setAttribute("sq-lefthand", "whoToShow: onlyme;");
     [
       {
-        image: "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeMute.png?v=1716111177280",
+        image: "https://nimbin.dev/files/VolumeMute.png",
         position: "-0.1 0.0 -0.0", 
         buttontype: "fires-handmute", 
         aattribute: "mute-hand", 
         callback: () => this.tmutefunction()
       },
       {
-        image: "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeHigh.png?v=1716111178427",
+        image: "https://nimbin.dev/files/VolumeHigh.png",
         position: "-0.1 0.5 -0.5", 
         buttontype: "fires-handcontrols", 
         aattribute: "mute-hand", 
