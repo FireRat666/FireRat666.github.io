@@ -94,7 +94,6 @@ function createFireScreen(p_pos, p_rot, p_sca, p_volume, p_url, p_backdrop) {
   addfirescreenpart19(); // Jackbox Button
   addfirescreenpart20(); // Papas.tv
   addfirescreenpart21(); // Banter Events
-  // addfirescreenpart22(); // Test Mute Button
   keepsoundlevel();
 		console.log("Fire screen Enabled"); 
 };
@@ -483,56 +482,6 @@ function addfirescreenpart21p2() {
   document.getElementById("extra-button-3").appendChild(firescreen);
 };
 
-class FCore {
-tmutefunction(){
-		console.log("Mute Hand Clicked");
-};
-// Mute/UnMute Button
-addfirescreenpart22() {
-
-    const handbutcontainer = document.createElement("a-entity");
-    handbutcontainer.setAttribute("scale", "0.1 0.1 0.1");
-    handbutcontainer.setAttribute("position", "0 0 0");
-    handbutcontainer.setAttribute("sq-lefthand", "whoToShow: onlyme;");
-    [
-      {
-        image: "https://nimbin.dev/files/VolumeMute.png",
-        position: "-0.1 0.0 -0.0", 
-        buttontype: "fires-handmute", 
-        aattribute: "mute-hand", 
-        callback: () => this.tmutefunction()
-      },
-      {
-        image: "https://nimbin.dev/files/VolumeHigh.png",
-        position: "-0.1 0.5 -0.5", 
-        buttontype: "fires-handcontrols", 
-        aattribute: "mute-hand", 
-        callback: () => this.tmutefunction()
-      }
-    ].forEach(item => {
-  const firescreen = document.createElement("a-plane");
-  firescreen.setAttribute("sq-lefthand", "whoToShow: onlyme;");
-  firescreen.id = item.buttontype;
-  firescreen.setAttribute("position", item.position);
-  firescreen.setAttribute("scale", "0.5 0.5 0.5");
-  firescreen.setAttribute("rotation", "0 -90 180");
-  // firescreen.setAttribute("color", "#FFFFFF");
-  // firescreen.setAttribute("transparent", true);
-  // firescreen.setAttribute("material", "transparent: true");
-  firescreen.setAttribute("sq-collider");
-  firescreen.setAttribute("sq-interactable");
-  firescreen.setAttribute("class", "buttons");
-  firescreen.setAttribute("src", item.image);
-  firescreen.setAttribute(item.aattribute, "");
-  firescreen.addEventListener("click", () => item.callback());
-  // document.getElementById("fires-browser").appendChild(firescreen);
-  // document.querySelector("a-scene").appendChild(firescreen);
-  handbutcontainer.appendChild(firescreen);
-      })
-  document.querySelector("a-scene").appendChild(handbutcontainer);
-};
-}
-window.videoPlayerCore = new FCore();
 // Sets the default sound level probably
 var volinterval = null;
 function keepsoundlevel() {
