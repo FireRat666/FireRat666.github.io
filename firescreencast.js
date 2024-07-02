@@ -45,7 +45,7 @@ function enablefirescreencast() {
       const pRot = getV3FromStr(getAttrOrDef(scripts[i], "rotation", "0 0 0"));
       const pSca = getV3FromStr(getAttrOrDef(scripts[i], "scale", "1 1 1"));
       const pVolume = getAttrOrDef(scripts[i], "volumelevel", "0.1");
-      const pWebsite = getAttrOrDef(scripts[i], "website", "https://firetws.glitch.me/games.html");
+      const pWebsite = getAttrOrDef(scripts[i], "website", "https://nimbin.dev/pages/games.html");
       const pMipmaps = getAttrOrDef(scripts[i], "mipmaps", "1");
       const pPixelsperunit = getAttrOrDef(scripts[i], "pixelsperunit", "1600");
       const pBackdrop = getAttrOrDef(scripts[i], "backdrop", "1");
@@ -102,7 +102,7 @@ function addfirescreencastpart2() {
   firescreencast.setAttribute("material", "transparent: true");
   firescreencast.setAttribute("sq-collider");
   firescreencast.setAttribute("sq-interactable");
-  firescreencast.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeMute.png?v=1716111177280");
+  firescreencast.setAttribute("src", "https://nimbin.dev/files/VolumeMute.png");
   firescreencast.setAttribute("toggle-mute");
   firescreencast.setAttribute("class", "buttons");
   document.getElementById("website-browser").appendChild(firescreencast);
@@ -119,7 +119,7 @@ function addfirescreencastpart3() {
   firescreencast.setAttribute("material", "transparent: true");
   firescreencast.setAttribute("sq-collider");
   firescreencast.setAttribute("sq-interactable");
-  firescreencast.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeHigh.png?v=1716111178427");
+  firescreencast.setAttribute("src", "https://nimbin.dev/files/VolumeHigh.png");
   firescreencast.setAttribute("volume-level", "vvalue: 0.05");
   firescreencast.setAttribute("class", "buttons");
   document.getElementById("website-browser").appendChild(firescreencast);
@@ -136,7 +136,7 @@ function addfirescreencastpart4() {
   firescreencast.setAttribute("material", "transparent: true");
   firescreencast.setAttribute("sq-collider");
   firescreencast.setAttribute("sq-interactable");
-  firescreencast.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/VolumeLow.png?v=1716170759375");
+  firescreencast.setAttribute("src", "https://nimbin.dev/files/VolumeLow.png");
   firescreencast.setAttribute("volume-level", "vvalue: -0.05");
   firescreencast.setAttribute("class", "buttons");
   document.getElementById("website-browser").appendChild(firescreencast);
@@ -153,7 +153,7 @@ function addfirescreencastpart5() {
   firescreencast.setAttribute("material", "transparent: true");
   firescreencast.setAttribute("sq-collider");
   firescreencast.setAttribute("sq-interactable");
-  firescreencast.setAttribute("src", "https://cdn.glitch.global/77fc6863-8a0a-4b9a-b1c0-c56769d5254b/Arrow.png?v=1716160344089");
+  firescreencast.setAttribute("src", "https://nimbin.dev/files/Arrow.png");
   firescreencast.setAttribute("navigate-browser", "action: goback");
   firescreencast.setAttribute("class", "buttons");
   document.getElementById("website-browser").appendChild(firescreencast);
