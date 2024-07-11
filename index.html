@@ -59,5 +59,12 @@
   <a-entity sq-mirror position="-5 1 0" rotation="0 90 0" scale="3 3 1"></a-entity>
 
     </a-scene></div>
+    <a href="https://firer.at/pages/games.html" class="buttonG buttonss">Go Home</a>
+    <p>Or Enter a URL here:</p>
+    <form id="form" method="get">
+    <input type="url" id="text" value="https://" class="url" size="40" placeholder="https://bantervr.com" onchange="document.getElementById('form').action = this.value;" />
+    <input type="button" id="btn" value="Go" class="url" 
+           onclick="window.open(document.getElementById('text').value);" />
+    </form>
   </body>
 </html>
