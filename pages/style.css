@@ -7,12 +7,12 @@ a.buttonR { color: #FF0000; }
 a.buttonW { color: #FFFFFF; }
 /* Button styles */
 a.buttonss { 
-	padding: 0.9vh 0.9vw; border: 0.1vh outset buttonborder; border-radius: 1vh;
+	padding: 0.8vh 0.8vw; border: 0.1vh outset buttonborder; border-radius: 1vh;
 	background-color: #202020; text-decoration: none; margin:2px; line-height: 2.2;
 }
 
 /* Base styles */
-body { font-size: 35px; background-color:#000000; color: #FFFFFF; }
+body { font-size: 35px; background-color:#000000; color: #FFFFFF; margin-left:100px; margin-right:100px; }
 /* Larger screens */
 @media (min-width: 1200px) { body { font-size: 45px; background-color:#000000; color: #FFFFFF; } } 
 /* Smaller tablets and mobiles */
